@@ -3,6 +3,33 @@ body {
     color: goldenrod;
     background-color:black;
 }
+ul.navbar {
+  padding:0 20px 20px 20px;
+  margin-bottom:10px;
+  list-style-type:circle;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em;
+  text-align: center;
+  list-style-position: inside;
+ }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navbar li {
+  background:black;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: darkgoldenrod }
+a:visited {
+  color: wheat }
 #titreprincipal
 {
     text-align: center
@@ -30,6 +57,11 @@ body {
 #description{
     text-align: center;
 }
+#Image{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 fieldset {
     padding:0 20px 20px 20px;
     margin-bottom:10px;
@@ -70,4 +102,23 @@ fieldset {
     margin-left:auto;
     box-shadow:1px 1px 1px rgb(0, 0, 0);
     cursor:pointer;
+    }
+    .bloc-gauche {
+      float:left;
+      width:70px;
+      color:black;
+      border-right:solid 1px;
+      padding-right:8px;
+    }
+    .bloc-droit {
+      float:right;
+      width:-70px;
+      color:black;
+      border-left:solid 1px;
+      padding-left:8px;
+    }
+    .bloc-central {
+      padding-left: 300px;
+      padding-right:300px;
+      text-align: center;
     }
