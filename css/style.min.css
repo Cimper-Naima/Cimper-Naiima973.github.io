@@ -3,3 +3,71 @@ body {
     color: goldenrod;
     background-color:black;
 }
+#titreprincipal
+{
+    text-align: center
+}
+#CIMPERNaimaId {
+    animation-duration: 3s;
+    animation-name: nanoush;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes nanoush {
+    from {
+      margin-left: 70%;
+      width: auto; 
+    }
+    to {
+      margin-left: -70%;
+      width:auto;
+    }
+  }
+#titre{
+    text-align: center;
+    justify-content: right;
+}
+#description{
+    text-align: center;
+}
+fieldset {
+    padding:0 20px 20px 20px;
+    margin-bottom:10px;
+    border:1px solid goldenrod;
+    }
+   legend {
+    color:goldenrod;
+    font-weight:bold
+    }
+   label {
+    margin-top:10px;
+    display:block;
+    }
+   label.inline {
+    display:inline;
+    margin-right:auto;
+    }
+   input, textarea, select, option {
+    background-color:#FFF3F3;
+    }
+   input, textarea, select {
+    padding:3px;
+    border:1px solid rgb(211, 142, 13);
+    border-radius:5px;
+    width:200px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    }
+   select {
+    margin-top:10px;
+    }
+   input[type=radio] {
+    background-color:transparent;
+    border:none;
+    width:10px;
+    }
+   input[type=submit], input[type=reset] {
+    width:100px;
+    margin-left:auto;
+    box-shadow:1px 1px 1px rgb(0, 0, 0);
+    cursor:pointer;
+    }
