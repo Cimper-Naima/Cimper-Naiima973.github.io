@@ -1,10 +1,8 @@
 body{
   color: black;
-  background-color: grey;
 }
 #titreprincipal{
   text-align: center;
-  background-color:grey;
   color:black;
 }
 #BienvenueId{
@@ -36,11 +34,9 @@ body{
     display: inline ;
     margin-right: 3px ;
     color:black;
-    background:gray;
   }
   #navigation li a {
     padding: 4px 20px ;
-    background:gray ;
     color:black ;
     border: 2px solid black ;
     font: 1em "Trebuchet MS",Arial,sans-serif ;
@@ -61,13 +57,11 @@ writing-mode: horizontal-tb;
     width:100%;
     text-align: center;
     border:1px solid black;
-    background-color: gray;
 }
 .flotte {
   float:left;
   }
   .warning {
-    background-color:grey;
     padding: .5rem;
     display: flex;
     flex-direction: column;
@@ -91,7 +85,6 @@ writing-mode: horizontal-tb;
   float:left;
   }
   .warning1 {
-    background-color:grey;
     padding: .5rem;
     display: flex;
     flex-direction: column;
@@ -111,7 +104,6 @@ writing-mode: horizontal-tb;
   float:left;
   }
   .warning2 {
-    background-color:grey;
     padding: .5rem;
     display: flex;
     flex-direction: column;
@@ -124,37 +116,6 @@ writing-mode: horizontal-tb;
   border: 1px solid black;
 }
 
-ul.navbar {
-  padding:0 20px 20px 20px;
-  margin-bottom:10px;
-  list-style-type:circle;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 2em;
-  left: 1em;
-  width: 9em;
-  text-align: center;
-  list-style-position: inside;
- }
-h1 {
-  font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif }
-ul.navbar li {
-  background:black;
-  margin: 0.5em 0;
-  padding: 0.3em;
-  border-right: 1em solid black }
-ul.navbar a {
-  text-decoration: none }
-a:link {
-  color: darkgoldenrod }
-a:visited {
-  color: wheat }
-#titreprincipal
-{
-    text-align: center
-}
    label {
     margin-top:1px;
     display: flex;
@@ -211,4 +172,6 @@ a:visited {
       float: left;
     text-align: center;
     }
-    
+  #right{
+    text-align: center;
+  }
