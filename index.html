@@ -1,75 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>CIMPER Naiima</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.min.css">
+    <title>CIMPER Naima</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
 
 </head>
 <body>
-    <header>
-            <div id="titreprincipal">
-                   <b><h1 id="CIMPERNaimaId">CIMPER Naima!</h1></b>
-                          </div>     
-                               
-                          <div class="bloc-gauche">
-                                <ul class="navbar">
-                                        <li><a href="a propos.html">A propos</a></li><b>
-                                        <li><a href="c-v.html">C.V</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                      </ul>
-                                   
-                            </div>
-                            <div class="bloc-droit">
-                                <img src="AvatarGithub.png" alt="">
-                            </div>
-                            <div class="bloc-central">
-                                    <p>Bienvenue sur ma page!</p>
-                                    <p>Agée de 23ans, j'apprends a coder avec du HTML,CSS et JavaScript(Bientôt).</p>
-        
-                                  <p>Mise a part ça, ma passion c'est la coiffure.</p></br>
-                            </div>      
-    <!-- Menu de navigation du site -->
-<ul class="navbar">
-        <li><a href="a propos.html">A propos</a></li><b>
-        <li><a href="c-v.html">C.V</a></li>
-        <li><a href="contact.html">Contact</a></li></br>
-      </ul>
-   
-    <!-- Compétence ! -->
-    <div class="bloc-gauche2">
-<h2>COMPÉTENCE</h2><br>
-<h3>Language de programmation WEB</h3>
-<ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
+  <header>
+    <div class="blochaut">
+      <div id="titreprincipal">
+        <B><h1 id="BienvenueId"> BIENVENUE!<h1></B>
     </div>
+  </header>
+  <div class="blocdroit1">
+        <ul><h2 id="navigation"<h2>
+            <li><a href="#" title="A propos">A propos</a></li>
+            <li><a href="#" title="Compétences">Compétences</a></li>
+            <li><a href="#" title="Projets">Projets</a></li>
+            <li><a href="#" title="Me contacter">Me contacter</a></li>
+          </ul>
+  </div>
+  <div id="Global">
+  <p class="flotte">
+      <img src="AvatarGithub.png" alt="Nouveau !" />
+     </p>
+       <div class="warning"
+      <p><h2 id="gauche"> A propos<h2></p>  
+          <p>
+              Bonjour, je me présente.<br>
+              Je m'appelle CIMPER Naima, j'ai 23ans.<br>
+              En ce moment je suis une formation de Developpeuse Web, afin d'apprendre le langage HTML, CSS & JavaScript.<br>
+              Cette formation me permettra de coder, afin de créer des sites internet, etc...
+            </p>
+      </div>      
+   </div>
+   <div id="left">Compétences</div>
+<div id="center">Projets</div>
+<div id="right">Vos coordonées</div>
+<form action="toto.php" method="post" >
+                <label for="nom">Nom & Prénom</label>
+                <input type="nom"name="nom"size="20">
 
-    <form action="toto.php" method="post" >
-            <fieldset><div class="bloc-doit2"></div>
-                
-                    <legend>Vos coordonnées :</legend>
-                    <label for="nom">Nom & Prénom</label>
-                    <input type="nom"name="nom"size="20">
-
-                     <label for="email">Votre email :</label>
-                      <input type="email" name="email" size="20" 
-                      maxlength="40" value="" id="email" />
-                   
-                     <label for="comments">Vos commentaires :</label>
-                      <textarea name="comments" id="comments" cols="20" rows="4">
-                      </textarea>
-                      <p>
-                            <input type="submit" value="Envoyer" />
-                            <input type="reset" value="Annuler" />
-                            </p>
-                           
-                           </form>
-                   </fieldset>
-                </div>
+                 <label for="email">Votre email :</label>
+                  <input type="email" name="email" size="20" 
+                  maxlength="40" value="" id="email" />
+               
+                 <label for="comments">Vos commentaires :</label>
+                  <textarea name="comments" id="comments" cols="20" rows="4">
+                  </textarea>
+                  <p>
+                        <input type="submit" value="Envoyer" />
+                        <input type="reset" value="Annuler" />
+                        </p>
+                       
+                       </form>
+            </div>
 </header>
 </body>
 </html>
